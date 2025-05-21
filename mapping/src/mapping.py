@@ -1,13 +1,13 @@
 import random
 
-import message_filters
+# import message_filters
 import numpy as np
-import rospy
+# import rospy
 import torch
-from cv_bridge import CvBridge
-from nav_msgs.msg import Odometry
+# from cv_bridge import CvBridge
+# from nav_msgs.msg import Odometry
 from scipy.spatial.transform import Rotation
-from sensor_msgs.msg import Image
+# from sensor_msgs.msg import Image
 from tqdm import tqdm
 
 from criterion import Criterion
